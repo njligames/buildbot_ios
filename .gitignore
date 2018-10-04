@@ -12,4 +12,8 @@ libNJLIC.dylib
 tagfile
 NJLIC.xcodeproj/project.xcworkspace/
 NJLIC.xcodeproj/xcuserdata/
+.DS_Store
+Debug-iphonesimulator/
+Release-iphoneos/
+Release-iphonesimulator/
 
