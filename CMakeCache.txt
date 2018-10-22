@@ -140,7 +140,7 @@ CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/Users/jamesfolk/Work/test_project_repo/buildbot_ios/install/Debug
+CMAKE_INSTALL_PREFIX:PATH=/Users/jamesfolk/Work/test_project_repo/buildbot_ios/install/MinSizeRel
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -296,7 +296,7 @@ DISKAUDIO:BOOL=ON
 DOXYGEN_DOT_EXECUTABLE:FILEPATH=/usr/local/bin/dot
 
 //Doxygen documentation generation tool (http://www.doxygen.org)
-DOXYGEN_EXECUTABLE:FILEPATH=/Applications/Doxygen.app/Contents/Resources/doxygen
+DOXYGEN_EXECUTABLE:FILEPATH=/usr/local/bin/doxygen
 
 //Support the dummy audio driver
 DUMMYAUDIO:BOOL=ON
@@ -525,7 +525,7 @@ THIRDPARTY_BULLET3_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/pvf2k3dmuwhcb
 THIRDPARTY_BULLET3_RELEASE_URL:STRING=https://www.dropbox.com/s/0i1ygx8xsk6chlk/libbullet3_ios_Release-iphoneos.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_BULLET3_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/xmau1zsexu8ujle/libbullet3_ios_RelWithDebugInfo-iphoneos.tar.gz?dl=0
+THIRDPARTY_BULLET3_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/xmau1zsexu8ujle/libbullet3_ios_RelWithDebugInfo-iphoneos.tar.gz?dl=0
 
 //The URL for Debug Bullet3 in the Simulator
 THIRDPARTY_BULLET3_SIMULATOR_DEBUG_URL:STRING=https://www.dropbox.com/s/wtl6g4xqyy6c1o7/libbullet3_ios_Debug-iphonesimulator.tar.gz?dl=0
@@ -537,7 +537,7 @@ THIRDPARTY_BULLET3_SIMULATOR_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/auk
 THIRDPARTY_BULLET3_SIMULATOR_RELEASE_URL:STRING=https://www.dropbox.com/s/jzldw4m2ytk708s/libbullet3_ios_Release-iphonesimulator.tar.gz?dl=0
 
 //The URL for Release Bullet3 in the Simulator
-THIRDPARTY_BULLET3_SIMULATOR_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/147vjruxpq3k5u7/libbullet3_ios_RelWithDebugInfo-iphonesimulator.tar.gz?dl=0
+THIRDPARTY_BULLET3_SIMULATOR_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/147vjruxpq3k5u7/libbullet3_ios_RelWithDebugInfo-iphonesimulator.tar.gz?dl=0
 
 //The URL for include Bullet3
 THIRDPARTY_DEBUG-DRAW_INCLUDE_URL:STRING=https://www.dropbox.com/s/c405ev7l3d0ruvb/libdebug-draw_includes.tar.gz?dl=0
@@ -567,7 +567,7 @@ THIRDPARTY_IMGUIZMO_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/t68zt0365s1c
 THIRDPARTY_IMGUIZMO_RELEASE_URL:STRING=https://www.dropbox.com/s/5lfqld0a24i3ex4/libimguizmo_ios_Release-iphoneos.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_IMGUIZMO_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/j7anxocz6x39n31/libimguizmo_ios_RelWithDebugInfo-iphoneos.tar.gz?dl=0
+THIRDPARTY_IMGUIZMO_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/j7anxocz6x39n31/libimguizmo_ios_RelWithDebugInfo-iphoneos.tar.gz?dl=0
 
 //The URL for Debug Bullet3 in the Simulator
 THIRDPARTY_IMGUIZMO_SIMULATOR_DEBUG_URL:STRING=https://www.dropbox.com/s/enkvlby04dkhjcn/libimguizmo_ios_Debug-iphonesimulator.tar.gz?dl=0
@@ -579,7 +579,7 @@ THIRDPARTY_IMGUIZMO_SIMULATOR_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/qb
 THIRDPARTY_IMGUIZMO_SIMULATOR_RELEASE_URL:STRING=https://www.dropbox.com/s/z1hnra7s18zfb04/libimguizmo_ios_Release-iphonesimulator.tar.gz?dl=0
 
 //The URL for Release Bullet3 in the Simulator
-THIRDPARTY_IMGUIZMO_SIMULATOR_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/8ub3v28kf7mg0kb/libimguizmo_ios_RelWithDebugInfo-iphonesimulator.tar.gz?dl=0
+THIRDPARTY_IMGUIZMO_SIMULATOR_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/8ub3v28kf7mg0kb/libimguizmo_ios_RelWithDebugInfo-iphonesimulator.tar.gz?dl=0
 
 //The URL for Debug Bullet3
 THIRDPARTY_IMGUI_DEBUG_URL:STRING=https://www.dropbox.com/s/833u6bnlgt2fvz9/libimgui_ios_Debug-iphoneos.tar.gz?dl=0
@@ -597,7 +597,7 @@ THIRDPARTY_IMGUI_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/kfdp4m5xxr1z6rz
 THIRDPARTY_IMGUI_RELEASE_URL:STRING=https://www.dropbox.com/s/9x60xzsy9n2d85l/libimgui_ios_Release-iphoneos.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_IMGUI_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/7e1wahfsab35ozu/libimgui_ios_RelWithDebugInfo-iphoneos.tar.gz?dl=0
+THIRDPARTY_IMGUI_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/7e1wahfsab35ozu/libimgui_ios_RelWithDebugInfo-iphoneos.tar.gz?dl=0
 
 //The URL for Debug Bullet3 in the Simulator
 THIRDPARTY_IMGUI_SIMULATOR_DEBUG_URL:STRING=https://www.dropbox.com/s/osoy00o0vn0ymzn/libimgui_ios_Debug-iphonesimulator.tar.gz?dl=0
@@ -609,7 +609,7 @@ THIRDPARTY_IMGUI_SIMULATOR_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/61jwc
 THIRDPARTY_IMGUI_SIMULATOR_RELEASE_URL:STRING=https://www.dropbox.com/s/yc10dmu8royk3pp/libimgui_ios_Release-iphonesimulator.tar.gz?dl=0
 
 //The URL for Release Bullet3 in the Simulator
-THIRDPARTY_IMGUI_SIMULATOR_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/gpjr9tj5hs42dgq/libimgui_ios_RelWithDebugInfo-iphonesimulator.tar.gz?dl=0
+THIRDPARTY_IMGUI_SIMULATOR_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/gpjr9tj5hs42dgq/libimgui_ios_RelWithDebugInfo-iphonesimulator.tar.gz?dl=0
 
 //Use JsonCPP library
 THIRDPARTY_JSONCPP_ENABLED:BOOL=OFF
@@ -630,7 +630,7 @@ THIRDPARTY_OGG_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/aq3k1cpclm5ee4r/l
 THIRDPARTY_OGG_RELEASE_URL:STRING=https://www.dropbox.com/s/vwtsoeodtzdwf62/libogg_ios_Release-iphoneos.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_OGG_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/rheo2ueu8qy76rs/libogg_ios_RelWithDebugInfo-iphoneos.tar.gz?dl=0
+THIRDPARTY_OGG_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/rheo2ueu8qy76rs/libogg_ios_RelWithDebugInfo-iphoneos.tar.gz?dl=0
 
 //The URL for Debug Bullet3 in the Simulator
 THIRDPARTY_OGG_SIMULATOR_DEBUG_URL:STRING=https://www.dropbox.com/s/6qjv1hr0twiv7gx/libogg_ios_Debug-iphonesimulator.tar.gz?dl=0
@@ -642,7 +642,7 @@ THIRDPARTY_OGG_SIMULATOR_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/u5yk6vh
 THIRDPARTY_OGG_SIMULATOR_RELEASE_URL:STRING=https://www.dropbox.com/s/kmr72e2uh1cdcn8/libogg_ios_Release-iphonesimulator.tar.gz?dl=0
 
 //The URL for Release Bullet3 in the Simulator
-THIRDPARTY_OGG_SIMULATOR_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/gmw07emc08vxtja/libogg_ios_RelWithDebugInfo-iphonesimulator.tar.gz?dl=0
+THIRDPARTY_OGG_SIMULATOR_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/gmw07emc08vxtja/libogg_ios_RelWithDebugInfo-iphonesimulator.tar.gz?dl=0
 
 //The URL for Debug Bullet3
 THIRDPARTY_SDL2_DEBUG_URL:STRING=https://www.dropbox.com/s/4w6ck8w3rqwbel1/libsdl2_ios_Debug-iphoneos.tar.gz?dl=0
@@ -659,9 +659,6 @@ THIRDPARTY_SDL2_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/fo252tlumnrfgxh/
 //The URL for Release Bullet3
 THIRDPARTY_SDL2_RELEASE_URL:STRING=https://www.dropbox.com/s/fo252tlumnrfgxh/libsdl2_ios_Release-iphoneos.tar.gz?dl=0
 
-//The URL for Release Bullet3
-THIRDPARTY_SDL2_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/fo252tlumnrfgxh/libsdl2_ios_Release-iphoneos.tar.gz?dl=0
-
 //The URL for Debug Bullet3 in the Simulator
 THIRDPARTY_SDL2_SIMULATOR_DEBUG_URL:STRING=https://www.dropbox.com/s/i9qcfwpqsvkotnx/libsdl2_ios_Debug-iphonesimulator.tar.gz?dl=0
 
@@ -670,9 +667,6 @@ THIRDPARTY_SDL2_SIMULATOR_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/4qa4ko
 
 //The URL for Release Bullet3 in the Simulator
 THIRDPARTY_SDL2_SIMULATOR_RELEASE_URL:STRING=https://www.dropbox.com/s/4qa4koq8y1uo7rj/libsdl2_ios_Release-iphonesimulator.tar.gz?dl=0
-
-//The URL for Release Bullet3 in the Simulator
-THIRDPARTY_SDL2_SIMULATOR_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/4qa4koq8y1uo7rj/libsdl2_ios_Release-iphonesimulator.tar.gz?dl=0
 
 //The URL for include Bullet3
 THIRDPARTY_STBIMAGES_INCLUDE_URL:STRING=https://www.dropbox.com/s/u9c4ruts1wac41k/stb_image_includes.tar.gz?dl=0
@@ -690,7 +684,7 @@ THIRDPARTY_VORBIS_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/ou0y01k2eeuyr2
 THIRDPARTY_VORBIS_RELEASE_URL:STRING=https://www.dropbox.com/s/fwappwieile5yt6/libvorbis_ios_Release-iphoneos.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_VORBIS_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/0002f5laqe4ap2m/libvorbis_ios_RelWithDebugInfo-iphoneos.tar.gz?dl=0
+THIRDPARTY_VORBIS_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/0002f5laqe4ap2m/libvorbis_ios_RelWithDebugInfo-iphoneos.tar.gz?dl=0
 
 //The URL for Debug Bullet3 in the Simulator
 THIRDPARTY_VORBIS_SIMULATOR_DEBUG_URL:STRING=https://www.dropbox.com/s/ui62jcm7dhxa60t/libvorbis_ios_Debug-iphonesimulator.tar.gz?dl=0
@@ -702,7 +696,7 @@ THIRDPARTY_VORBIS_SIMULATOR_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/uo46
 THIRDPARTY_VORBIS_SIMULATOR_RELEASE_URL:STRING=https://www.dropbox.com/s/37q8ns7jbo0k5yn/libvorbis_ios_Release-iphonesimulator.tar.gz?dl=0
 
 //The URL for Release Bullet3 in the Simulator
-THIRDPARTY_VORBIS_SIMULATOR_RELWITHDEBUGINFO_URL:STRING=https://www.dropbox.com/s/a11ytiahp1uc1bk/libvorbis_ios_RelWithDebugInfo-iphonesimulator.tar.gz?dl=0
+THIRDPARTY_VORBIS_SIMULATOR_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/a11ytiahp1uc1bk/libvorbis_ios_RelWithDebugInfo-iphonesimulator.tar.gz?dl=0
 
 //fmod include
 USE_BULLET3_LIBRARY:BOOL=ON
@@ -821,7 +815,7 @@ vorbis_URL_INCLUDE:STRING=https://www.dropbox.com/s/erbp79zazwqsknv/libvorbis_in
 ########################
 
 //Stored Xcode object GUID
-ALL_BUILD_GUID_CMAKE:INTERNAL=02D8A8D4AF3342D1A7C38FE4
+ALL_BUILD_GUID_CMAKE:INTERNAL=3B4207A1C78D4526B594D009
 //ADVANCED property for variable: BULLET3_INCLUDE_DIR
 BULLET3_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -998,7 +992,7 @@ DOXYGEN_DOT_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DOXYGEN_EXECUTABLE
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 //Details about finding Doxygen
-FIND_PACKAGE_MESSAGE_DETAILS_Doxygen:INTERNAL=[/Applications/Doxygen.app/Contents/Resources/doxygen][cfound components:  doxygen dot ][v1.8.14()]
+FIND_PACKAGE_MESSAGE_DETAILS_Doxygen:INTERNAL=[/usr/local/bin/doxygen][cfound components:  doxygen dot ][v1.8.14()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/local/bin/pkg-config][v0.29.2()]
 //Details about finding SWIG
@@ -1238,21 +1232,21 @@ IMGUIZMO_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: IMGUI_INCLUDE_DIR
 IMGUI_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Stored Xcode object GUID
-NJLIC-documentation_GUID_CMAKE:INTERNAL=388D4E85B5CB4FCA9F4E7031
+NJLIC-documentation_GUID_CMAKE:INTERNAL=79FC25D955424F02B6A3DBB7
 //Stored Xcode object GUID
-NJLIC-exe_GUID_CMAKE:INTERNAL=A34FAA809C6749E6BEE1D4E3
+NJLIC-exe_GUID_CMAKE:INTERNAL=EF3A667791214D42A293BD25
 //Stored Xcode object GUID
-NJLIC-lua-swig-bullet3-static_GUID_CMAKE:INTERNAL=466ECCC7E74E4C35940B6C8D
+NJLIC-lua-swig-bullet3-static_GUID_CMAKE:INTERNAL=EA06C664A2E443CCB03E9849
 //Stored Xcode object GUID
-NJLIC-lua-swig-njlic-static_GUID_CMAKE:INTERNAL=E823AA8F1E5E40B1AAA34C2A
+NJLIC-lua-swig-njlic-static_GUID_CMAKE:INTERNAL=D485C50F01714CC980546ECE
 //Stored Xcode object GUID
-NJLIC-static_GUID_CMAKE:INTERNAL=FC200FB9E43946EA897661E3
+NJLIC-static_GUID_CMAKE:INTERNAL=CD8806C4D65140B1BA1BCA66
 //Stored Xcode object GUID
-NJLICFramework_GUID_CMAKE:INTERNAL=71FE61BE72714D9BAD637C33
+NJLICFramework_GUID_CMAKE:INTERNAL=8BFBEE5E050049B08913BC86
 //STRINGS property for variable: NJLIC_GRAPHICS_PLATFORM
 NJLIC_GRAPHICS_PLATFORM-STRINGS:INTERNAL=opengl_es_2;opengl_es_3
 //Stored Xcode object GUID
-NJLIC_GUID_CMAKE:INTERNAL=511873C1A1B549C099251E4F
+NJLIC_GUID_CMAKE:INTERNAL=C3B0A12435C94417A5ACB234
 //STRINGS property for variable: NJLIC_SOUND_PLATFORM
 NJLIC_SOUND_PLATFORM-STRINGS:INTERNAL=openal;fmod;sdl
 //ADVANCED property for variable: OGG_INCLUDE_DIR
@@ -1260,7 +1254,7 @@ OGG_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //Stored Xcode object GUID
-PROJECT_NJLIC_GUID_CMAKE:INTERNAL=90FB300B901B49E7A07970B5
+PROJECT_NJLIC_GUID_CMAKE:INTERNAL=95B8ED4523BB47C68B7A42E9
 //ADVANCED property for variable: SDL2_INCLUDE_DIR
 SDL2_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //CHECK_TYPE_SIZE: sizeof(size_t)
@@ -1276,17 +1270,17 @@ SWIG_VERSION-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: VORBIS_INCLUDE_DIR
 VORBIS_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Stored Xcode object GUID
-ZERO_CHECK_GUID_CMAKE:INTERNAL=1EF462F721904662A5B19EF5
+ZERO_CHECK_GUID_CMAKE:INTERNAL=A5701A13EA7B43818C8A401C
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/Users/jamesfolk/Work/test_project_repo/buildbot_ios/install/Debug
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/Users/jamesfolk/Work/test_project_repo/buildbot_ios/install/MinSizeRel
 //Stored Xcode object GUID
-clang-format_GUID_CMAKE:INTERNAL=2FC0DC143D284637A23919A2
+clang-format_GUID_CMAKE:INTERNAL=08361E08FA0D4937B2531E22
 //Stored Xcode object GUID
-cppcheck_GUID_CMAKE:INTERNAL=61F125DC28E14C6483B1567D
+cppcheck_GUID_CMAKE:INTERNAL=FFA8224439334D828D6DA7A4
 //Stored Xcode object GUID
-install_GUID_CMAKE:INTERNAL=F8FCAD0DAE2347A5BA4BD5C6
+install_GUID_CMAKE:INTERNAL=32302E9D8F494F9581DD09C9
 //Stored Xcode object GUID
-package_GUID_CMAKE:INTERNAL=02E336DF64664C53A7B8202B
+package_GUID_CMAKE:INTERNAL=47F323AA105943E0A8B1E176
 //Stored Xcode object GUID
-uninstall_GUID_CMAKE:INTERNAL=906232EF550A44729CE9B576
+uninstall_GUID_CMAKE:INTERNAL=7B79669DB6A54C9F8B81144B
 
