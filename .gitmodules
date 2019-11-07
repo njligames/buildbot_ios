@@ -6,4 +6,4 @@
 	url = git@github.com:njligames/cmake.in.git
 [submodule "gameproject"]
 	path = gameproject
-	url = git@github.com:njligames/gameproject.git
+	url = https://github.com/njligames/gameproject.git
