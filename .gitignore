@@ -53,3 +53,4 @@ RelWithDebInfo-iphonesimulator/*.app*
 CMakeFiles
 CMakeScripts
 CMakeCache.txt
+*.dmg
