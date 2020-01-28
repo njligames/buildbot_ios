@@ -1,9 +1,12 @@
 [submodule "njligames-njlic_engine"]
 	path = njligames-njlic_engine
 	url = git@github.com:njligames/njligames-njlic_engine.git
+    dirty = ignore
 [submodule "cmake.in"]
 	path = cmake.in
 	url = git@github.com:njligames/cmake.in.git
+    dirty = ignore
 [submodule "gameproject"]
 	path = gameproject
 	url = https://github.com/njligames/gameproject.git
+    dirty = ignore
