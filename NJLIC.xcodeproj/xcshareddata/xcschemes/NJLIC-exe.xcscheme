@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1120"
+   LastUpgradeVersion = "1140"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "90F526FAFA004F96BFC4B3B4"
+               BlueprintIdentifier = "BBDF9DB2B7D244689747509E"
                BuildableName = "NJLICGameEngine.app"
                BlueprintName = "NJLIC-exe"
                ReferencedContainer = "container:buildbot_ios/NJLIC.xcodeproj">
@@ -31,9 +31,9 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "MinSizeRel"
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      buildConfiguration = "Release"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90F526FAFA004F96BFC4B3B4"
+            BlueprintIdentifier = "BBDF9DB2B7D244689747509E"
             BuildableName = "NJLICGameEngine.app"
             BlueprintName = "NJLIC-exe"
             ReferencedContainer = "container:buildbot_ios/NJLIC.xcodeproj">
@@ -61,7 +61,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90F526FAFA004F96BFC4B3B4"
+            BlueprintIdentifier = "BBDF9DB2B7D244689747509E"
             BuildableName = "NJLICGameEngine.app"
             BlueprintName = "NJLIC-exe"
             ReferencedContainer = "container:buildbot_ios/NJLIC.xcodeproj">
