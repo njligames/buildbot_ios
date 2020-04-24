@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BBDF9DB2B7D244689747509E"
+               BlueprintIdentifier = "A56E3458420E4D76A02622E8"
                BuildableName = "NJLICGameEngine.app"
                BlueprintName = "NJLIC-exe"
                ReferencedContainer = "container:buildbot_ios/NJLIC.xcodeproj">
@@ -31,7 +31,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -44,12 +44,22 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BBDF9DB2B7D244689747509E"
+            BlueprintIdentifier = "A56E3458420E4D76A02622E8"
             BuildableName = "NJLICGameEngine.app"
             BlueprintName = "NJLIC-exe"
             ReferencedContainer = "container:buildbot_ios/NJLIC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-FIRAnalyticsDebugEnabled"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-FIRAnalyticsVerboseLoggingEnabled"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -61,7 +71,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BBDF9DB2B7D244689747509E"
+            BlueprintIdentifier = "A56E3458420E4D76A02622E8"
             BuildableName = "NJLICGameEngine.app"
             BlueprintName = "NJLIC-exe"
             ReferencedContainer = "container:buildbot_ios/NJLIC.xcodeproj">

@@ -1,0 +1,6 @@
+framework module Pods_NJLIC_exe {
+  umbrella header "Pods-NJLIC-exe-umbrella.h"
+
+  export *
+  module * { export * }
+}
