@@ -7,17 +7,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "598986B0-BAA3-4732-B72C-E0883CA51C01"
+            uuid = "935B5933-E548-4EB3-A4BD-5FA566A9B0AD"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "njligames-njlic_engine/njli/World.cpp"
+            filePath = "njligames-njlic_engine/njli/platform/Game.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1613"
-            endingLineNumber = "1613"
-            landmarkName = "World::checkRayCollision(touch, code, disableNodeTouched)"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "NJLIGameEngine::update(step)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B91E98E-0356-4E00-A5FF-9C226877D6E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../third-party_libs/SDL2/src/video/uikit/SDL_uikitwindow.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "464"
+            endingLineNumber = "464"
+            landmarkName = "SDL_iPhoneSetAnimationCallback(window, interval, callbackParam)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
