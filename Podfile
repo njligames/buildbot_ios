@@ -28,13 +28,12 @@ target 'NJLIC-exe' do
   use_frameworks!
 
   # Pods for NJLIC-exe
-
-  # https://firebase.google.com/docs/ios/setup#available-pods
-  # Add the Firebase pod for Google Analytics
+  pod 'Firebase/Core'
   pod 'Firebase/Analytics'
-    
-  # Add the pods for any other Firebase products you want to use in your app
-  # For example, to use Firebase Authentication and Firebase Realtime Database
+
+  # Add the Firebase pod for Google Analytics
+  # https://firebase.google.com/docs/ios/setup#available-pods
+  pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
 

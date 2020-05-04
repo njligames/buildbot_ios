@@ -120,6 +120,7 @@ DEPENDENCIES:
   - Firebase/AdMob
   - Firebase/Analytics
   - Firebase/Auth
+  - Firebase/Core
   - Firebase/Database
   - Firebase/Messaging
   - Firebase/Storage
@@ -175,6 +176,6 @@ SPEC CHECKSUMS:
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
 
-PODFILE CHECKSUM: 7344d038e8ed362b60c3d8684a6861cba78e4318
+PODFILE CHECKSUM: 5e4ee4b9a151425db9a3299f0d46b08381b360b8
 
 COCOAPODS: 1.9.1
